@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  tfgpu_jupyter:
+    image: d1egoprog/tensorflow-gpu-jupyter:2.9.3-lab
+    ports:
+      - "9987:8888"
+    volumes:
+      - .:/home/jupyter/notebooks
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - capabilities: [gpu]
+    environment:
+      - JUPYTER_SERVER_URL=http://${EXTERNAL_IP}:9987/
+    restart: always
