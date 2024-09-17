@@ -42,10 +42,16 @@ docker-compose -p sandbox up -d
 If this work is with your interest you can read the presented [paper](hhttps://www.sciencedirect.com/journal/procedia-computer-science) (Not Published Yet) and if you use it in your research please don't forget to cite 👍 this work, the suggested citation in BibTex format is:
 
 ``` BibTex
-@inproceedings{Rincon-Yanez2023,
+@article{Rincon-Yanez2023c,
 author = {Rincon-Yanez, Diego and Mouakher, Amira and Senatore, Sabrina},
-booktitle = {Procedia Computer Science},
-title = {{Enhancing downstream tasks in Knowledge Graphs: A Complement Graph-based Approach Applied to Bilateral Trade}},
+doi = {10.1016/j.procs.2023.10.364},
+issn = {18770509},
+journal = {Procedia Computer Science},
+pages = {3692--3700},
+publisher = {Elsevier},
+title = {{Enhancing downstream tasks in Knowledge Graphs Embeddings: A Complement Graph-based Approach Applied to Bilateral Trade}},
+url = {https://linkinghub.elsevier.com/retrieve/pii/S1877050923015223},
+volume = {225},
 year = {2023}
 }
 ```
