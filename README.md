@@ -39,7 +39,7 @@ docker-compose -p sandbox up -d
 
 ## Citations 
 
-If this work is with your interest you can read the presented [paper](hhttps://www.sciencedirect.com/journal/procedia-computer-science) (Not Published Yet) and if you use it in your research please don't forget to cite 👍 this work, the suggested citation in BibTex format is:
+If this work is with your interest you can read the presented [paper](https://www.sciencedirect.com/journal/procedia-computer-science) and if you use it in your research please don't forget to cite 👍 this work, the suggested citation in BibTex format is:
 
 ``` BibTex
 @article{Rincon-Yanez2023c,
